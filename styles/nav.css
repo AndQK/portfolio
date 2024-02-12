@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #0B0C10;
+    padding: 10px;
+    color: #FFFFFF;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    box-sizing: border-box;
+    font-family: "Archivo Black";
+    font-size: 16px;
+    z-index: 1000; /* Set a higher z-index for the navbar so that it always appear on top of elements */
+  };
+  
+  nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline-block; /* Make li elements appear on the same line */
+    margin-right: 25px; /* Adjust spacing between links as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+  nav ul li:hover {
+    transform: scale(1.2);
+  }
+  nav a {
+    color: #FFFFFF; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /*Add hover effect for better user experience */
+  nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #66FCF1;
+  }
+
+  /* Part of the nav*/
+  .myName {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    margin-left: 10px;
+  }
+  .myName:hover {
+    transform: scale(1.15);
+    filter: hue-rotate(90deg);
+    cursor: pointer;
+  }
+  .links-desktop {
+    margin-left: auto;
+  }
+  .links-mobile {
+    margin-left: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background: transparent;
+    border-style: none;
+  }
+  .links-mobile:hover {
+    transform: scale(1.2);
+  }
