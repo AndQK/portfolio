@@ -24,7 +24,7 @@
     gap: 15px;
   }
 
-  .email-wrapper ul li img {
+  .email-wrapper ul li svg {
     width: 24px;
     height: 24px;
     display: block;
@@ -114,13 +114,14 @@
     background: #66FCF1;
     border-radius: 8px;
     border: #66FCF1;
+    filter: drop-shadow(0px 3px 0px #0b9c92);
     cursor: pointer;
-    transition: transform 0.1s ease-in-out, background 0.3s ease-in-out;
+    transition: background 0.3s;
   }
-  .submit-button:active {
+  .submit-button:hover {
     background: #04c1b4;
   }
-
+/*
   .submit-border-wrap {
     width: 100%;
     position:relative;
@@ -136,3 +137,4 @@
     background: linear-gradient(to bottom, #04c1b4, #0B9C92);
     transform: scale(0.95);
   }
+  /*

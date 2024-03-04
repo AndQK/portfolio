@@ -1,37 +1,41 @@
 @font-face {
   font-family: "Archivo Black";
-  src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+  src: url("/fonts/ArchivoBlack-Regular.ttf") format("truetype");
   font-weight: normal;
-    font-style: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto-Bold";
-  src: url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  src: url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
 body {
   font-family: "Roboto-Regular", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
-  background-color: #09080C;
+  background-color: #09080c;
   margin: 0;
 }
 
 .title {
-  color: #66FCF1;
+  color: #66fcf1;
   font-family: "Archivo Black";
   font-size: 36px;
+  margin-top: 70px;
 }
 
 .title hr {
-  border: 3px solid #66FCF1;
+  border: 3px solid #66fcf1;
   border-radius: 10px;
   margin: 10px auto;
   width: 60px;
@@ -40,7 +44,7 @@ h2 {
   margin: 0;
 }
 .sub-title {
-  color: #66FCF1;
+  color: #66fcf1;
   font-family: "Archivo Black";
   font-size: 32px;
   margin: 0;
